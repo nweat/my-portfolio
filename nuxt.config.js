@@ -35,7 +35,7 @@ export default {
 
   plugins: [
     "@/plugins/util",
-    "@/plugins/vue-gtag"
+    "~/plugins/vue-gtag.js"
   ],
 
   components: true,
