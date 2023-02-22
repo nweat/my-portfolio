@@ -11,7 +11,7 @@ export default {
     return {posts}
   },
   head: {
-    title: process.env.GITHUB_USERNAME + "'s Blog",
+    title: process.env.GHUB_USERNAME + "'s Blog",
     meta: [
       {
         hid: 'description',
