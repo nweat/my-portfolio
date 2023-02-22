@@ -15,7 +15,8 @@
     "@nuxtjs/sitemap": "^2.4.0",
     "core-js": "^3.27.1",
     "nuxt": "^2.15.7",
-    "prismjs": "^1.29.0"
+    "prismjs": "^1.29.0",
+    "vue-gtag": "^2.0.1"
   },
   "devDependencies": {
     "@aceforth/nuxt-optimized-images": "^1.4.0",
