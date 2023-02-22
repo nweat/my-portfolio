@@ -45,8 +45,7 @@ export default {
     '@nuxtjs/tailwindcss',
     '@nuxtjs/color-mode',
     'vue-notion/nuxt',
-    '@aceforth/nuxt-optimized-images',
-    '@nuxtjs/google-analytics'
+    '@aceforth/nuxt-optimized-images'
   ],
 
   modules: [
