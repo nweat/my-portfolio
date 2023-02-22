@@ -5,6 +5,16 @@ on: [push, pull_request]
 env:
   DEV_DESCRIPTION: ${{ secrets.DEV_DESCRIPTION }}
   GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
+  BASE_URL: ${{ secrets.BASE_URL }}
+  NOTION_TABLE_ID: ${{ secrets.NOTION_TABLE_ID }}
+  NOTION_ABOUT_PAGE_ID: ${{ secrets.NOTION_ABOUT_PAGE_ID }}
+  GHUB_USERNAME: ${{ secrets.GHUB_USERNAME }}
+  DEV_LOGO: ${{ secrets.DEV_LOGO }}
+  DEV_NAME: ${{ secrets.DEV_NAME }}
+  DEV_ROLE: ${{ secrets.DEV_ROLE }}
+  DEV_GITHUB_LINK: ${{ secrets.DEV_GITHUB_LINK }}
+  DEV_TWITTER_LINK: ${{ secrets.DEV_TWITTER_LINK }}
+  DEV_LINKEDIN_LINK: ${{ secrets.DEV_LINKEDIN_LINK }}
 
 jobs:
   cd:

@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: process.env.GITHUB_USERNAME,
+    title: process.env.GHUB_USERNAME,
     htmlAttrs: {
       lang: 'en'
     },
@@ -75,7 +75,7 @@ export default {
 
   publicRuntimeConfig: {
     baseURL: process.env.BASE_URL,
-    githubUsername: process.env.GITHUB_USERNAME,
+    githubUsername: process.env.GHUB_USERNAME,
     notionTableId: process.env.NOTION_TABLE_ID,
     notionAboutPageId: process.env.NOTION_ABOUT_PAGE_ID,
     devName: process.env.DEV_NAME,
