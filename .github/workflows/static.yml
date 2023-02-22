@@ -22,7 +22,7 @@ jobs:
           GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: Install dependencies
-        run: npm ci
+        run: npm i
 
       - name: Generate
         run: npm run generate
