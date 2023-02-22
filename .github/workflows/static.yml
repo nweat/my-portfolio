@@ -9,7 +9,7 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [18]
+        node: [16]
 
     steps:
       - name: Checkout
@@ -20,9 +20,6 @@ jobs:
 
       - name: Install dependencies
         run: npm i
-        with:
-          DEV_DESCRIPTION: ${{ secrets.DEV_DESCRIPTION }}
-          GOOGLE_ANALYTICS_ID: ${{ secrets.GOOGLE_ANALYTICS_ID }}
 
       - name: Generate
         run: npm run generate
