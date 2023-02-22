@@ -35,6 +35,7 @@ export default {
 
   plugins: [
     "@/plugins/util",
+    "~/plugins/vue-gtag.js"
   ],
 
   components: true,
@@ -71,11 +72,6 @@ export default {
       // console.log(pageTable)
       return pageTable.filter((item) => !!item.public).map((item) => `/posts/${item.slug}`)
     }
-  },
-
-  // Google Analytics Configuration: https://google-analytics.nuxtjs.org
-  googleAnalytics: {
-    id: process.env.GOOGLE_ANALYTICS_ID,
   },
 
   publicRuntimeConfig: {
