@@ -7,6 +7,7 @@
 
 
     <div class="flex flex-wrap justify-center items-center text-4xl mt-5">
+      <IconNode class="m-2 md:m-4"/>
       <IconPython class="m-2 md:m-4"/>
       <IconDjango class="m-2 md:m-4"/>
       <IconAws class="m-2 md:m-4"/>
