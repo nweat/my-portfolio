@@ -7,14 +7,16 @@
 
 
     <div class="flex flex-wrap justify-center items-center text-4xl mt-5">
+      <IconJavascript class="m-2 md:m-4"/>
       <IconNode class="m-2 md:m-4"/>
-      <IconPython class="m-2 md:m-4"/>
       <IconDjango class="m-2 md:m-4"/>
       <IconAws class="m-2 md:m-4"/>
+      <IconGcp class="m-2 md:m-4"/>
       <IconHeroku class="m-2 md:m-4"/>
-      <IconJavascript class="m-2 md:m-4"/>
       <IconTailwind class="m-2 md:m-4"/>
       <IconVuejs class="m-2 md:m-4"/>
+      <IconReact class="m-2 md:m-4"/>
+      <IconAngular class="m-2 md:m-4"/>
       <IconNuxt class="m-2 md:m-4"/>
     </div>
   </div>
